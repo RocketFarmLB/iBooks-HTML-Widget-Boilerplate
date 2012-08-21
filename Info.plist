@@ -10,12 +10,16 @@
   <key>MainHTML</key>
   <string>main.html</string>
 
+  <!-- Use Apple widget class to notify when widget is ready -->
+  <key>IBNotifiesOnReady</key>
+  <true/>
+
   <!-- These are required, but have no user-facing effect -->
   <key>CFBundleDevelopmentRegion</key>
   <string>English</string>
   <key>CFBundleIdentifier</key>
   <string>com.trevorburnham.widgetboilerplate</string>
   <key>CFBundleName</key>
-  <string>iBooks HTML Widget Boilerplate</string>
+  <string>iBooks HTML Widget Boilerplate</string>  
 </dict>
 </plist>
