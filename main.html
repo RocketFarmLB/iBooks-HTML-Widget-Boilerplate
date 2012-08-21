@@ -2,27 +2,61 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="AppleClasses/AppleWidget.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
+  <div class="window">
+    <div class="content">
 
-    <!-- Replace this with your own markup -->
-    <h1>iBooks HTML Widget Boilerplate</h1>
-    <p>
-      This boilerplate was developed by
-      <a href="http://trevorburnham.com">Trevor Burnham</a> and is open-sourced
-       under the MIT License.
-    </p>
-    
-    <p>
-      If you’ve found this project useful, please consider buying some of
-      Trevor's books: <em><a
-      href="http://pragprog.com/book/tbcoffee/coffeescript">CoffeeScript:
-      Accelerated JavaScript Development</a></em>, published by PragProg, and
-      <em><a href="http://click.linksynergy.com/fs-bin/stat?id=j5lGZbrn4Rg&offerid=243958&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fbook%252Fcoffeescript%252Fid498532763%253Fmt%253D11%2526uo%253D4%2526partnerId%253D30">CoffeeScript: An interactive Reference</a></em> for
-      the iPad.
-    </p>
+      <!-- Replace this with your own markup -->
 
-    <script type="text/javascript" src="js/script.js" charset="utf-8"></script>
+      <h1>Scrolling iBooks HTML Widget Boilerplate</h1>
+      <p>
+        This is a simple boilerplate for an iBooks widget which scrolls vertically (or horizontally should you wish), functionality which *should* already exist.
+      </p>
+
+      <h2>Credits</h2>
+
+      <ul>
+        <li>Standing on the shoulders of others - <a href="http://edwilde.com">Ed Wilde</a></li>
+        <li>Using the superb <a href="http://manos.malihu.gr/jquery-custom-content-scroller">JQuery Custom Content Scroller</a> by <a href="http://manos.malihu.gr/">malihu</a>
+        <li>Included <a href="http://jqueryui.com/">JQueryUI</a> library is customised to remove unused features, feel free to replace it should you need the full set.</li>
+        <li>Boilerplate was developed from original work by <a href="http://trevorburnham.com">Trevor Burnham</a>, open-sourced under the MIT License.</li>
+      </ul>
+      
+      <h2>Lorem Ipsum Scrolling Demo</h2>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lacus dui, quis mattis libero. Mauris semper pellentesque erat, at hendrerit velit dictum id. Etiam id nisl ac nibh accumsan semper aliquam non tortor. Praesent iaculis dignissim nunc id pharetra. In condimentum tristique adipiscing. Maecenas sit amet turpis vitae erat rutrum accumsan. Vestibulum scelerisque, nunc ut imperdiet gravida, tellus arcu pretium odio, porta faucibus purus turpis eu enim. Mauris ut massa nunc. Fusce cursus vehicula dui, et sollicitudin nulla tincidunt nec. Morbi pretium fermentum sapien, at malesuada massa tincidunt ut. Proin ut turpis elit, eget lacinia urna. In non interdum justo. Sed lorem nisi, laoreet eget pulvinar sed, dictum et orci. Sed vel neque vel nisi facilisis bibendum.
+      </p><p>
+      Nam eget urna risus, id venenatis enim. Vivamus mauris magna, porttitor vel sollicitudin in, aliquet porta elit. Vivamus scelerisque pulvinar lectus, id facilisis tortor lobortis ut. Aliquam blandit est eu orci iaculis volutpat. Donec at sapien vel odio consequat aliquet. Vestibulum suscipit dictum ante, a tincidunt turpis blandit id. Aenean nec ligula leo. Pellentesque aliquet ultricies felis, sed euismod lectus euismod eget. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec bibendum dolor vel velit blandit placerat.
+      </p><p>
+      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus vitae tempor quam. Aenean feugiat suscipit rhoncus. Aenean aliquam risus non magna imperdiet scelerisque. Nunc sollicitudin venenatis libero, mollis consectetur sapien ullamcorper eget. Nulla arcu justo, fermentum ut tincidunt nec, suscipit eget neque. Duis vestibulum tincidunt quam, ut gravida nisl ultricies vitae. Suspendisse et lacinia neque. Nulla tincidunt orci sed erat imperdiet venenatis. Etiam et sapien a arcu gravida porta sodales in lectus. Integer malesuada molestie nisi, eget malesuada lorem consectetur non. In faucibus tristique lacinia. Suspendisse vestibulum mauris mauris. Ut eleifend faucibus venenatis. Maecenas quis orci eget sem fringilla bibendum.
+      </p><p>
+      Fusce et est at diam tincidunt pretium ut a erat. Ut volutpat est sit amet erat eleifend nec vulputate est feugiat. Nam pretium auctor purus, a laoreet enim gravida vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam ornare, risus vitae pharetra dictum, ipsum velit rhoncus diam, at pharetra sem leo quis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus volutpat, orci sit amet aliquet mollis, odio nisi auctor mi, eu porttitor neque sem vitae tortor. Mauris justo quam, fermentum lacinia varius ut, tempor ac nunc. Etiam tempor magna sed tortor placerat sit amet ultrices nisl imperdiet. Nam non eros luctus ante tincidunt pretium ut vitae metus. Vivamus ut tellus felis. Mauris mollis gravida massa quis convallis. Aenean ut est enim, in sollicitudin velit. Pellentesque leo ligula, euismod vitae luctus vel, varius vel nisi.
+      </p><p>
+      Suspendisse eleifend tristique nunc blandit interdum. Aliquam erat volutpat. Praesent vitae velit et lectus elementum eleifend. Sed sapien felis, aliquet non tempus a, tempor sit amet nulla. Nunc vel augue id purus accumsan rutrum sit amet quis urna. Morbi risus tellus, posuere id placerat eu, varius sed arcu. Curabitur nec lectus magna, nec ornare libero. Morbi vitae velit non enim rhoncus rhoncus. Nulla enim tortor, rhoncus vitae mattis nec, molestie nec nisl. Integer porttitor facilisis enim sit amet eleifend. Nulla facilisi.
+      </p><p>
+      Nullam at diam lacus, nec sagittis felis. Donec facilisis varius tellus, nec posuere erat tempus bibendum. Nam dui tellus, vulputate in placerat quis, dignissim nec massa. Praesent elementum gravida nunc, et euismod risus iaculis ut. Suspendisse potenti. Donec a ipsum lacus. Phasellus placerat pretium quam id semper. Mauris bibendum, neque non convallis pharetra, nunc ipsum semper justo, eget adipiscing nibh neque nec tortor. Vivamus hendrerit tincidunt scelerisque. Praesent sed est non nunc consequat mollis. Vestibulum condimentum lectus pellentesque diam suscipit at commodo elit imperdiet. Duis sed odio sed tortor dapibus egestas.
+      </p><p>
+      Duis a euismod risus. Vestibulum euismod pellentesque rutrum. Integer adipiscing lobortis leo eget aliquet. Etiam rhoncus malesuada imperdiet. Integer varius gravida neque, quis bibendum magna euismod id. Sed ut nibh a tellus sollicitudin sodales sed id dui. Phasellus vitae dui ac justo faucibus posuere. Integer elit magna, commodo eget mollis in, pellentesque vitae dolor. Mauris ut massa quis urna tempor dictum non sed ante. Praesent ultrices eros sed arcu congue vehicula. In non mauris et risus venenatis sollicitudin id quis lacus. Curabitur tincidunt convallis nisl vitae hendrerit.
+      </p><p>
+      Etiam malesuada suscipit lobortis. Morbi sed accumsan ligula. Vestibulum luctus massa molestie felis viverra rhoncus. Etiam viverra libero sit amet lectus ullamcorper ac fringilla augue dignissim. Proin ligula elit, ullamcorper sed facilisis sed, tristique ac arcu. Quisque velit mi, tempor eu lacinia vel, venenatis sed nulla. Curabitur ut metus sapien, quis tincidunt urna. Cras at velit sit amet ipsum porttitor iaculis. Pellentesque pellentesque sollicitudin luctus.
+      </p>
+
+      <!-- end -->
+
+    </div>
+  </div>
+
+  <!-- Load Scrolling Javascript -->
+  <script src="js/libs/jquery-1.7.2.min.js"></script>
+  <script src="js/libs/jquery-ui-1.8.21.custom.min.js"></script>
+  <script src="js/jquery.mousewheel.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.min.js"></script>
+
+  <!-- Load Custom Javascript -->
+  <script type="text/javascript" src="js/script.js" charset="utf-8"></script>
 </body>
 </html>
