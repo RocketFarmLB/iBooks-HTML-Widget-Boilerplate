@@ -28,12 +28,10 @@ Currently, HTML widgets can only be viewed in landscape orientation, so you'll p
 
 # License / Credits
 
-## Combining Various Elements - *[Ed Wilde](http://edwilde.com)*
+- Combining Various Elements - *[Ed Wilde](http://edwilde.com)*
+- *[JQuery Custom Content Scroller](http://manos.malihu.gr/jquery-custom-content-scroller)* - *[Malihu](http://manos.malihu.gr/)*
+- *[Original iBooks HTML Widget Boilerplate](https://github.com/TrevorBurnham/iBooks-HTML-Widget-Boilerplate)* - *[Trevor Burnham](http://trevorburnham.com)*
 
-## *[JQuery Custom Content Scroller](http://manos.malihu.gr/jquery-custom-content-scroller)* - *[Malihu](http://manos.malihu.gr/)*
+> Based on work by the author of *[CoffeeScript: An Interactive Reference](http://click.linksynergy.com/fs-bin/stat?id=j5lGZbrn4Rg&offerid=243958&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fbook%252Fcoffeescript%252Fid498532763%253Fmt%253D11%2526uo%253D4%2526partnerId%253D30)*, now available in the iBooks store.
 
-## *[Original iBooks HTML Widget Boilerplate](https://github.com/TrevorBurnham/iBooks-HTML-Widget-Boilerplate)* - *[Trevor Burnham](http://trevorburnham.com)*
-
-Based on work by the author of *[CoffeeScript: An Interactive Reference](http://click.linksynergy.com/fs-bin/stat?id=j5lGZbrn4Rg&offerid=243958&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fbook%252Fcoffeescript%252Fid498532763%253Fmt%253D11%2526uo%253D4%2526partnerId%253D30)*, now available in the iBooks store.
-
-License - http://trevorburnham.mit-license.org/
+> License - http://trevorburnham.mit-license.org/
